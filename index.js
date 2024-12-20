@@ -17,7 +17,7 @@ app.use(cookieParser());
 
 // CORS options
 const corsOptions = {
-  origin: "http://localhost:3000",  // Ensure this matches your frontend
+  origin: "https://password-reset-forntend-bharath.netlify.app/",  // Ensure this matches your frontend
   credentials: true,
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   allowedHeaders: 'Content-Type,Authorization',
